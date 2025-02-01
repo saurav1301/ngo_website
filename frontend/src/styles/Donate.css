@@ -1,0 +1,82 @@
+.donation-page {
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .donation-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .donation-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .donation-form-section {
+    flex: 1;
+  }
+  
+  .image-content-section {
+    flex: 1;
+  }
+  
+  .donation-form-section h2,
+  .image-content-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .donate-button {
+    background-color: #4cc350;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .donate-button:hover {
+    background-color: #1f7e24;
+  }
+  
+  .thank-you-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #21b726;
+  }
+  
+  .donation-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left:80px ;
+    margin-bottom: 15px;
+  }
+  
+  .image-content {
+    padding: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

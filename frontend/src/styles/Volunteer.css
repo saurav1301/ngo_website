@@ -1,0 +1,123 @@
+/* src/styles/Volunteer.css */
+
+.volunteer-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .volunteer-header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 100px;
+
+  }
+  
+  .volunteer-benefits {
+    margin-bottom: 70px;
+  }
+  
+  .volunteer-opportunities {
+    margin-bottom: 20px;
+  }
+
+  .opportunity{
+    background-color: #ddd;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    border: #252525;
+  } 
+  
+  .opportunity-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Space between boxes */
+  }
+  
+  .opportunity-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Three boxes per row with gaps */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .opportunity-box h3 {
+    margin-top: 0;
+  }
+  
+  .opportunity-box button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .opportunity-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .volunteer-form {
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .volunteer-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .volunteer-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal styles */
+  .modal {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .modal-close-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .modal-close-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

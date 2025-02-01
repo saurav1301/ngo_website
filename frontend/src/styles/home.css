@@ -1,0 +1,242 @@
+/* src/styles/home.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.home {
+  text-align: center;
+  padding: 0;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.welcome-message {
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: rgba(211, 211, 211, 0.8); /* Grey background with slight transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-message h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.welcome-message .quote {
+  font-size: 1.2em;
+  color: #0069d9; /* Blue color for the quote */
+  margin: 10px 0;
+}
+
+.donate-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+  background-color: #218838;
+}
+
+.left-quote {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translateY(-50%);
+  font-size: 0.8em; /* Increased font size for a very large quote */
+  color: #fff; /* White color for the text */
+  font-weight: bold;
+  text-shadow: 
+    0 0 5px #003366, /* Dark blue shadow to simulate border */
+    0 0 10px #003366,
+    0 0 15px #003366; 
+  max-width: 400px; 
+}
+
+.impact {
+  padding: 50px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0069d9;
+}
+
+.impact-stories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.story:hover{
+  transform: translateY(-10px);
+}
+
+.story {
+  width: 20%; 
+  height: 50%;
+  min-width: 250px;
+  background-color: #fff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.story h3 {
+  color: #28a745;
+}
+
+.view-more {
+  display: block;
+  margin-top: 150px;
+  color: #0069d9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+.mother-teresa-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.mother-teresa-img {
+  width: 200px;
+  margin-left: 70px;
+  margin-right: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mother-teresa-quote {
+  flex: 1;
+  margin-right: 50px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+}
+
+.join-us-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.join-us-section h2 {
+  margin-bottom: 20px;
+  color: #0069d9;
+}
+
+.volunteer-img {
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.join-reason {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.volunteer-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2684e9; /* Blue color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.volunteer-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
+
+.achievements-section {
+  display: flex;
+  padding: 50px 50px;
+  background-color: #f8f9fa;
+}
+
+.achievements-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  transform: scale(1.05); /* Always hover effect */
+}
+
+.achievements-box:hover {
+  transform: scale(1.05);
+}
+
+.achievements-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.achievement {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #0069d9;
+  margin-right: 10px;
+}
+
+.text {
+  text-align: left;
+}
+
+.count {
+  font-size: 3rem;
+  color: #202820;
+  margin: 0;
+}
+
+.achievements-text {
+  flex: 1;
+  padding: 40px;
+  margin-left: 30px;
+}
+
+.achievements-image img {
+  width: 100%;
+  border-radius: 10px;
+}

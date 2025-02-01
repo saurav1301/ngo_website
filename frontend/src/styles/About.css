@@ -1,0 +1,102 @@
+/* src/styles/aboutUs.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.title{
+  text-align: left;
+  font-size: 2em;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+
+.info{
+  text-align: center;
+  padding-left: 500px;
+  margin-bottom: 100px;
+}
+
+.about-us {
+  text-align: center;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #0069d9;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-image {
+  width: 100%;
+  height: auto; /* Adjust the height as needed */
+  margin: 20px 0;
+  margin-bottom: 100px;
+}
+
+.our-sections {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.section {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #0069d9;
+}
+
+.our-branches {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  padding: 20px;
+}
+
+.branches {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.branch {
+  flex: 1;
+  max-width: 22%;
+  margin: 10px;
+  text-align: center;
+}
+
+.branch h3 {
+  color: #0069d9;
+}
+
+.branch-image {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin: 10px 0;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}

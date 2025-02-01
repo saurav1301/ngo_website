@@ -1,0 +1,85 @@
+/* src/styles/Contact.css */
+
+.contact-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.contact-header {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-group textarea {
+    min-height: 100px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.thank-you-message {
+    text-align: center;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-details li {
+    margin-bottom: 10px;
+}
